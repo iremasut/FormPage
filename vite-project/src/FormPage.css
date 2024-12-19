@@ -4,8 +4,8 @@ body {
     height: 100vh;
     position: absolute;
     background-image: url("blur.jpeg");
-    background-size: cover; /* Görüntüyü ekranı tamamen kaplayacak şekilde ölçekler */
-    background-position: center; /* Görüntüyü merkezler */
+    background-size: cover; 
+    background-position: center; 
     background-repeat: no-repeat;
     top: 0;
     left: 0;
@@ -24,8 +24,8 @@ body {
     max-width: 400px;
     width: 100%;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.2); /* Transparent white */
-    backdrop-filter: blur(20px); /* Blur effect */
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(20px); 
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.3);

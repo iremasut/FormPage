@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./FormPage.css"; // Create a CSS file to hold the styles
+import "./FormPage.css"; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSave } from '@fortawesome/free-solid-svg-icons'
 
