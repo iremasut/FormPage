@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    position: absolute;
+    background-image: url("blur.jpeg");
+    background-size: cover; /* Görüntüyü ekranı tamamen kaplayacak şekilde ölçekler */
+    background-position: center; /* Görüntüyü merkezler */
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+  /* General container for the form */
+  .form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2); /* Transparent white */
+    backdrop-filter: blur(20px); /* Blur effect */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Form group styling */
+  .form-group {
+    margin-bottom: 15px;
+    margin-right: 20px;
+    margin-left: 5px;
+  }
+  
+  /* Labels above input fields */
+  label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 5px;
+  }
+  
+  /* Input fields */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #fff;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Small description text */
+  small {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #333333;
+  }
+  
+  /* Radio button groups */
+  .radio-group, .status-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+  }
+  
+  /* Styling for radio button labels */
+  .radio-group label, .status-group label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  /* Radio button styling */
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  /* Save button styling */
+  .save-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .save-button:hover {
+    background-color: #007bff;
+  }
+  
+  .save-button i {
+    margin-right: 8px;
+  }
+  
