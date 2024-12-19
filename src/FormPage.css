@@ -3,7 +3,7 @@ body {
     padding: 0;
     height: 100vh;
     position: absolute;
-    background-image: url("blur.jpeg");
+    background-image: url("/static/images/blur.jpeg");
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
