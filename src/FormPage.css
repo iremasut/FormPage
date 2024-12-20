@@ -57,7 +57,6 @@ body {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 14px;
-    background-color: #fff;
   }
   
   input[type="text"]:focus {
